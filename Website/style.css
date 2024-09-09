@@ -26,10 +26,10 @@ header >.interface{
 nav{
     display: block;
     margin: auto;
+    max-width: 1280px;
 }
 
 ul{
-    display: inline-block;
     margin: auto;
     list-style: none;
     border-radius: 30px;
@@ -44,7 +44,6 @@ li{
 ul li a{
     color: white;
     text-decoration: none;
-    margin: auto;
     border: 1px solid white;
     border-radius: 20px;
     padding: 10px 20px;
