@@ -9,9 +9,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.interface{
-    max-width: 1280px;
+::-webkit-scrollbar{
+    display: none;
 }
+
+
+.fale-conosco button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color:black;
+    color: white;
+    font-weight: bold;
+    transition: .2s;
+    cursor: pointer;
+}
+.fale-conosco button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.08);
+}
+
 
 /* Menu */
 
@@ -58,31 +76,15 @@ header nav.menu-desktop ul li{
     padding: 0 40px;
 }
 
-header .fale-conosco button{
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: none;
-    background-color:black;
-    color: white;
-    font-weight: bold;
-    transition: .2s;
-    cursor: pointer;
-}
-
-header .fale-conosco button:hover{
-    background-color: white;
-    color: black;
-    transform: scale(1.08);
-}
-
 /* Main */
 
 main{
     background-color: blueviolet;
+    display: flex;
 }
 
 main section{
-    max-width: 1280px;
+    max-width: 1200px;
     margin: auto;
     margin-top: 5vh;
     height: 70vh;
@@ -100,4 +102,19 @@ main h1{
 main p{
     max-width: 70vw;
     padding: 20px 0px 0px 50px;
+}
+
+
+/* Footer */
+
+footer{
+    padding: 50px 0px 0px 35px;
+    background-color: rgb(25, 115, 194);
+    border: solid 1px black;
+    display: flex;
+}
+
+footer .fale-conosco{
+    max-width: 1200px;
+    width: 100vw;
 }
